@@ -12,6 +12,11 @@ metadata:
     - kubernetes
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-app'
+  links:
+    - url: http://tanzu-java-app.apps.tap-guy-lab-p8m8nm3rts18.ts-cna.com
+      name: Hello-World
+    - url: http://tanzu-java-app.apps.tap-guy-lab-p8m8nm3rts18.ts-cna.com/k8s
+      name: K8S-spec
 spec:
   type: service
   lifecycle: experimental
