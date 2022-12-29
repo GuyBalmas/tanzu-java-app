@@ -21,3 +21,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: cloud-native-applications-team
+  providesApis:
+    - welcome
+    - k8s
