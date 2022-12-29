@@ -39,42 +39,4 @@ public class KubernetesController {
 				"Namespace: " + namespace
 		);
 	}
-
-    @RequestMapping("/test")
-	public String test(){
-        podName = K8sHandler.getPodName();
-        namespace = K8sHandler.getNamespace();
-        return HtmlTemplate.htmlLandingPage(
-				"Pod Name: " + podName,
-				"Namespace: " + namespace
-		);
-	}
-	// /**
-	//  * 	Get all environment variables prefixed with "KUBERNETES_"
- 	//  */
-	// private Map<String, String> k8sEnvVars = System.getenv()
-	// 		.entrySet()
-	// 		.stream()
-	// 		.filter(entry -> entry.getKey().startsWith("KUBERNETES_"))
-	// 		.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue)); 
-    
-    
-    // private String populateNamespace(){
-
-    //     String ns = "unknown";
-    //     try { 
-    //         // Set up the Kubernetes API client
-    //         ApiClient client = Config.defaultClient();
-    //         Configuration.setDefaultApiClient(client);
-    //         CoreV1Api api = new CoreV1Api();
-
-    //         // Get the namespace of the pod
-    //         V1Pod pod = api.readNamespacedPod(podName,"","true");
-    //         ns = pod.getMetadata().getNamespace();
-    //     }
-    //     catch (Exception e) {
-    //         logger.warn("Failed to read pod's namespace");
-    //     }
-    //     return ns;
-    // }
 }
