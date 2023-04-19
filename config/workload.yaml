@@ -13,11 +13,9 @@ spec:
       autoscaling.knative.dev/minScale: "1"
   - name: testing_pipeline_matching_labels
     value:
-      apps.tanzu.vmware.com/framework: maven
-      apps.tanzu.vmware.com/pipeline: test
+       apps.tanzu.vmware.com/pipeline: test
   source:
     git:
       ref:
-        branch: main
-      url: https://github.com/vmware-tanzu/application-accelerator-samples.git
-    subPath: tanzu-java-app
+        branch: master
+      url: https://github.com/GuyBalmas/tanzu-java-app.git
