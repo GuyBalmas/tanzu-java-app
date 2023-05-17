@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tanzu-java-app
+  name: my-tanzu-java-app
   description: Tanzu Java Spring-Boot Web App, displaying kubernetes info on '/k8s' endpoint. Written by Guy Balmas.
   tags:
     - app-accelerator

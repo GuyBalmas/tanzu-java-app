@@ -1,4 +1,4 @@
-# Hello World from Tanzu Java Web App!
+# Hello World from My Tanzu Java Web App!
 
 This is a `Java` `Spring-Boot` web app built by `Tanzu Application Platform`.
 
