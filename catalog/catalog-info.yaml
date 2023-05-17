@@ -14,9 +14,9 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-app'
     'backstage.io/techdocs-ref': dir:.
   links:
-    - url: http://tanzu-java-app.apps.tap-guy-lab-p8m8nm3rts18.ts-cna.com
+    - url: https://my-tanzu-java-app.apps.guy-tap.terasky.demo
       name: Hello-World
-    - url: http://tanzu-java-app.apps.tap-guy-lab-p8m8nm3rts18.ts-cna.com/k8s
+    - url: https://my-tanzu-java-app.apps.guy-tap.terasky.demo/k8s
       name: K8S-spec
 spec:
   type: service
