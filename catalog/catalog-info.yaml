@@ -11,7 +11,7 @@ metadata:
     - tanzu
     - kubernetes
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=my-tanzu-java-app'
     'backstage.io/techdocs-ref': dir:.
   links:
     - url: https://my-tanzu-java-app.apps.guy-tap.terasky.demo
